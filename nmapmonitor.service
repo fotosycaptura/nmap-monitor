@@ -1,0 +1,12 @@
+[Unit]
+Description=Servicio de escaneo Nmap automatizado
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/python3 /var/opt/nmap-monitor/nmap_monitor.py
+WorkingDirectory=/var/opt/nmap-monitor
+Restart=always
+User=pi
+
+[Install]
+WantedBy=multi-user.target
