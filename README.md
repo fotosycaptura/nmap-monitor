@@ -8,12 +8,12 @@ Esto nació como una solución para poder dejar realizando labores de escaneo mi
 
 ## Estructura del proyecto
 
-/var/opt/nmap-monitor/
-├── nmap_monitor.py # Script principal
-├── sitios.csv # Sitios a escanear (CSV con columnas sitio;escaneado)
-├── reportes/ # Resultados Nmap por sitio
-├── locks/ # Archivos .lock para evitar duplicados
-└── nmapmonitor.service # Servicio systemd
+/var/opt/nmap-monitor/  
+├── nmap_monitor.py # Script principal  
+├── sitios.csv # Sitios a escanear (CSV con columnas sitio;escaneado)  
+├── reportes/ # Resultados Nmap por sitio  
+├── locks/ # Archivos .lock para evitar duplicados  
+└── nmapmonitor.service # Servicio systemd  
 
 
 ---
