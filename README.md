@@ -21,7 +21,7 @@ Esto nació como una solución para poder dejar realizando labores de escaneo mi
 ## Requisitos
 
 - Python 3.6+
-- `nmap` instalado (`sudo apt install nmap`)
+- `nmap` instalado (`sudo apt install nmap` o `sudo pacman -Syu nmap` si usas algo basado en arch)
 - Permisos de root si se usan opciones avanzadas (-A, -p 443, etc.)
 - Sistema de archivos Linux (ext4 o similar, no FAT/NTFS)
 
