@@ -2,6 +2,8 @@
 
 **Nmap Monitor** es un sistema automatizado de escaneos Nmap desarrollado en Python, pensado para ejecutarse de forma continua desde una Raspberry Pi u otro servidor. Lee un archivo CSV con objetivos de escaneo, ejecuta los análisis en segundo plano, guarda reportes y evita repetir escaneos ya realizados.
 
+Esto nació como una solución para poder dejar realizando labores de escaneo mientras duermo o estoy fuera o imposibilitado de realizar el escaneo desde la red en la que me encuentro, entonces me conecto a mi raspberry mediante la nube y dejo el sitio que quiero escanear.
+
 ---
 
 ## Estructura del proyecto
@@ -91,3 +93,4 @@ sudo systemctl status nmapmonitor
 # Contacto
 
 Este proyecto fue desarrollado para uso personal en contextos de ciberseguridad. Puedes modificarlo y adaptarlo según tus necesidades.
+Puedes dejarme igual tus recomendaciones, siempre son bienvenidas las retroalimentaciones.
